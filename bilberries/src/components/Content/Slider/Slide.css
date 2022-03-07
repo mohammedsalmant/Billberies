@@ -1,0 +1,49 @@
+.card {
+  width: fit-content;
+}
+
+.card-body {
+  /* width: fit-content; */
+  display: flex;
+  padding: 6px 40px;
+}
+
+.card {
+  /* box-shadow: 0 20px 22px rgba(0, 0, 0, 0.2); */
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.img-thumbnail {
+  width: 30vw;
+  height: 40vh;
+  border: 20px solid white;
+  border-radius: 31px;
+}
+.cake-details-right {
+  margin-left: auto;
+}
+.btn button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.items {
+  background: #fff;
+}
+
+@media screen and (max-width: 400px) {
+  .img-thumbnail {
+    width: 100vw;
+  }
+}

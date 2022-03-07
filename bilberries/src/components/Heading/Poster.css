@@ -1,0 +1,208 @@
+.poster {
+  /* background-color: #f9eff8; */
+  height: 53vh;
+  width: 100vw;
+  max-width: 100%;
+  background: url("/public/images/wave-haikei.svg");
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content-top {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+}
+.banner-contact-bottom {
+  flex: 2;
+  position: relative;
+  top: -21vh;
+}
+.banner-top-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.banner-top-left {
+  display: flex;
+  align-items: center;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-text-head {
+  font-size: 60px;
+}
+
+.banner-contact {
+  color: gray;
+  display: flex;
+  padding-top: 19px;
+}
+.banner-contact-details {
+  display: flex;
+  padding: 5px 67px;
+  font-size: 1rem;
+}
+
+.banner-contact,
+i,
+p {
+  padding: 5px;
+}
+
+.banner-img img {
+  width: 18rem;
+  height: 18rem;
+  border: 16px solid white;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .poster {
+    height: 44vh;
+    background: url("/public/images/m-wave-haikei.svg");
+  }
+  .banner-contact-bottom {
+    top: 21vh;
+  }
+  /* .banner-content {
+  } */
+  /* .banner-content-top {
+    flex-direction: column-reverse;
+  } */
+  .banner-text-head {
+    font-size: 30px;
+    text-align: center;
+  }
+  .banner-top-right {
+    flex: 0;
+  }
+  .banner-text {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-contact-details {
+    padding: 0px;
+    /* font-size: 12px; */
+    font-weight: 400;
+  }
+  .banner-img {
+    display: none;
+  }
+  /* .banner-img img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 24vw;
+    top: 4vh;
+    border: 16px solid white;
+    border-radius: 30px;
+    z-index: 1;
+  } */
+}
+@media screen and (max-width: 1000px) {
+  .banner-img {
+    display: none;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* .banner-text-head {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.banner-text-head :first-of-type { */
+/* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+/* animation: showup 7s infinite;
+}
+
+.banner-text-head :last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+.banner-text-head :last-of-type span {
+  margin-left: -355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
+} */
